@@ -58,9 +58,15 @@ public class MainClass {
 
     // them giao vien giang day vao lop hoc
     // tao giao vien
-
-    // in danh sach hos sinh trong lop
+    GiaoVien gv1 = new GiaoVien("Huynh Tuan Anh",35, "Nha Trang","0354879854", "Lap Trinh Thiet bi di dong", "Cong nghe phan phem");
+    GiaoVien gv2 = new GiaoVien("Pham Thi Kim Ngoan",33, "Nha Trang","0975846524", "Lap Trinh huong doi tuong", "Cong nghe phan phem");
+    lopHoc.themGVGD(gv1);
+    lopHoc.themGVGD(gv2);
+    // in danh sach hoc sinh trong lop
     lopHoc.inDSHS();
+    
+    //in danh sach giao vien giang day
+    lopHoc.inDSGVGD();
 
   }
 }
